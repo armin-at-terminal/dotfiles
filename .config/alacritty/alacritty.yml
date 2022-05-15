@@ -1,0 +1,37 @@
+background_opacity: .65
+
+colors:
+  primary:
+    background: '#2b2b2b'
+    foreground: '#ffffff'
+
+window:
+  padding:
+    x: 5
+    y: 5
+
+scrolling:
+  history: 5000
+  multiplier: 3
+
+normal:
+  black:   '#D34E60'
+  red:     '#D34E60'
+  green:   '#7BD34E'
+  yellow:  '#D1D34E'
+  blue:    '#4E4FD3'
+  magenta: '#D34ECB'
+  cyan:    '#4E7ED3'
+  white:   '#FEE4FF'
+
+font:
+  # Normal (roman) font face
+  normal:
+    # Font family
+    #
+    # Default:
+    #   - (macOS) Menlo
+    #   - (Linux/BSD) monospace
+    #   - (Windows) Consolas
+    family: jetbrains mono
+  size: 12
